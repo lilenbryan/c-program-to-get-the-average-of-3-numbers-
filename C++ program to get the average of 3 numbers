@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+      int a,b,c;
+      float avg;
+      
+      printf("\t\n Enter Three Numbers\n");
+      printf("--------------------------------\n");
+      printf("\t\n Enter First Number  : ");
+      scanf("%d", &a);
+      printf("\t\n Enter Second Number : ");
+      scanf("%d",&b);
+      printf("\t\n Enter Third Number : ");
+      scanf("%d",&c);
+      printf("--------------------------------\n");
+      
+      /* To find average*/
+      avg=(a+b+c)/3.0;
+      printf("\t\n Average of Three Numbers is : %f",avg);
+      
+	 return 0; 
+}
+
